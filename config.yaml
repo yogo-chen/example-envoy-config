@@ -117,7 +117,6 @@ static_resources:
   clusters:
     - name: cluster_www_site_local
       connect_timeout: 1s
-      type: STATIC
       load_assignment:
         cluster_name: www_site_local
         endpoints:
